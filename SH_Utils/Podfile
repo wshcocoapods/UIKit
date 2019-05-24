@@ -3,6 +3,8 @@
 
 target 'SH_Utils' do
     #    pod 'SH_Utils' :path=>'../'
-    pod 'SH_Utils' , :git =>'https://github.com/wshcocoapods/UIKit.git'
-
+#    pod 'SH_Utils' , :git =>'https://github.com/wshcocoapods/UIKit.git'
+    pod 'MJRefresh'
+    pod 'Masonry'
+    
 end

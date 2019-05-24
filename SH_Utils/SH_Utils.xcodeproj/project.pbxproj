@@ -15,6 +15,7 @@
 		CFD25D4E2297C6EA003C2258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD25D4C2297C6EA003C2258 /* LaunchScreen.storyboard */; };
 		CFD25D512297C6EA003C2258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD25D502297C6EA003C2258 /* main.m */; };
 		CFD25D5A2297C745003C2258 /* UILabel+Sh_Init.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD25D592297C745003C2258 /* UILabel+Sh_Init.m */; };
+		CFD25D5D2297DCED003C2258 /* SH_Utils.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CFD25D5C2297DCED003C2258 /* SH_Utils.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CFD25D582297C745003C2258 /* UILabel+Sh_Init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Sh_Init.h"; sourceTree = "<group>"; };
 		CFD25D592297C745003C2258 /* UILabel+Sh_Init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Sh_Init.m"; sourceTree = "<group>"; };
 		CFD25D5B2297C794003C2258 /* Marco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Marco.h; sourceTree = "<group>"; };
+		CFD25D5C2297DCED003C2258 /* SH_Utils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SH_Utils.podspec; path = ../SH_Utils.podspec; sourceTree = "<group>"; };
 		EEAA891D932EF3041859DA22 /* libPods-SH_Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SH_Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 		CFD25D352297C6E9003C2258 = {
 			isa = PBXGroup;
 			children = (
+				CFD25D5C2297DCED003C2258 /* SH_Utils.podspec */,
 				CFD25D572297C6F3003C2258 /* Utils */,
 				CFD25D402297C6E9003C2258 /* SH_Utils */,
 				CFD25D3F2297C6E9003C2258 /* Products */,
@@ -121,6 +124,7 @@
 				CFD25D3A2297C6E9003C2258 /* Sources */,
 				CFD25D3B2297C6E9003C2258 /* Frameworks */,
 				CFD25D3C2297C6E9003C2258 /* Resources */,
+				9995CD961B0AFA318C1BF681 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +175,7 @@
 				CFD25D4E2297C6EA003C2258 /* LaunchScreen.storyboard in Resources */,
 				CFD25D4B2297C6EA003C2258 /* Assets.xcassets in Resources */,
 				CFD25D492297C6E9003C2258 /* Main.storyboard in Resources */,
+				CFD25D5D2297DCED003C2258 /* SH_Utils.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +198,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9995CD961B0AFA318C1BF681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SH_Utils/Pods-SH_Utils-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SH_Utils/Pods-SH_Utils-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
