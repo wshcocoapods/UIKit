@@ -9,7 +9,7 @@ s.source = { :git => 'https://github.com/wshcocoapods/UIKit.git', :tag => s.vers
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
 #s.source_files = 'SH_Utils/Utils/*'
-s.source_files = 'SH_Utils/Utils/**'
+s.source_files = 'SH_Utils/Utils/**/*.{h,m}'
 s.frameworks = 'UIKit'
 
 # 依赖
