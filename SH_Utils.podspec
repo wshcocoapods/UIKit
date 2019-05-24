@@ -10,4 +10,10 @@ s.requires_arc = true
 s.ios.deployment_target = '8.0'
 s.source_files = 'SH_Utils/Utils/'
 s.frameworks = 'UIKit'
+
+# 依赖
+s.dependency 'MJExtension'
+s.dependency 'SDWebImage'
+s.dependency 'Masonry'
+s.dependency 'MJRefresh'
 end
