@@ -3,8 +3,8 @@ s.name = 'SH_Utils'
 s.version = '0.0.0.3'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.summary = ''
-s.homepage = 'https://github.com/CodeWicky/DWReader'
-s.authors = { 'codeWicky' => 'codewicky@163.com' }
+s.homepage = 'https://github.com/wshcocoapods'
+s.authors = { 'wsh' => '389889154@qq.com' }
 s.source = { :git => '', :tag => s.version.to_s }
 s.requires_arc = true
 s.ios.deployment_target = '7.0'
