@@ -8,8 +8,8 @@ s.authors = { 'wsh' => '389889154@qq.com' }
 s.source = { :git => 'https://github.com/wshcocoapods/UIKit.git', :tag => s.version.to_s }
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
-#s.source_files = 'SH_Utils/Utils/*'
 #s.source_files = 'SH_Utils/Utils/**/*.{h,m}'
+
 s.frameworks = 'UIKit'
 
 # 依赖
@@ -20,7 +20,7 @@ s.dependency 'MJRefresh'
 
 
 #source
-s.public_header_files = 'SH_Utils/Utils/*.h'
+s.source_files = 'SH_Utils/Utils/*.h'
 s.default_subspec = 'Category','Controller','View'
 s.subspec 'Category' do |cg|
 cg.source_files = 'SH_Utils/Utils/Category/*.{h,m}'
