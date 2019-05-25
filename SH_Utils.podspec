@@ -18,9 +18,18 @@ s.dependency 'SDWebImage'
 s.dependency 'Masonry'
 s.dependency 'MJRefresh'
 
-#s.default_subspec = 'Category'
+
+#source
+s.public_header_files = 'SH_Utils/Utils/*.h'
+s.default_subspec = 'Category','Controller','View'
 s.subspec 'Category' do |cg|
 cg.source_files = 'SH_Utils/Utils/category/*.{h,m}'
+end
+s.subspec 'Controller' do |co|
+co.source_files = 'SH_Utils/Utils/Controller/*.{h,m}'
+end
+s.subspec 'View' do |v|
+v.source_files = 'SH_Utils/Utils/View/*.{h,m}'
 end
 
 end
