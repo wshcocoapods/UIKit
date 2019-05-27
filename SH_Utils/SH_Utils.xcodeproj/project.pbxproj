@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A8DC9ADD0EFDA42DA0491E2F /* libPods-SH_Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAA891D932EF3041859DA22 /* libPods-SH_Utils.a */; };
+		CFBE938D229BAE4100C53AE2 /* SH_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE938C229BAE4100C53AE2 /* SH_CollectionViewController.m */; };
+		CFBE9391229BAED900C53AE2 /* SH_VersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE9390229BAED900C53AE2 /* SH_VersionManager.m */; };
+		CFBE9394229BAEEE00C53AE2 /* SH_CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE9393229BAEEE00C53AE2 /* SH_CacheManager.m */; };
+		CFBE9397229BAF0900C53AE2 /* SH_NetWorkIngManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE9396229BAF0900C53AE2 /* SH_NetWorkIngManager.m */; };
+		CFBE939A229BAF4600C53AE2 /* SH_GlobalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE9399229BAF4600C53AE2 /* SH_GlobalManager.m */; };
+		CFBE939D229BAFAF00C53AE2 /* SH_CustomerStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE939C229BAFAF00C53AE2 /* SH_CustomerStatusBar.m */; };
+		CFBE93A1229BAFF600C53AE2 /* SHSerialAnimationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE93A0229BAFF600C53AE2 /* SHSerialAnimationQueue.m */; };
+		CFBE93A5229BB28C00C53AE2 /* SH_FontManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE93A4229BB28C00C53AE2 /* SH_FontManger.m */; };
+		CFBE93A9229BC47600C53AE2 /* SHUUIDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE93A8229BC47600C53AE2 /* SHUUIDTools.m */; };
 		CFD25D432297C6E9003C2258 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD25D422297C6E9003C2258 /* AppDelegate.m */; };
 		CFD25D462297C6E9003C2258 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD25D452297C6E9003C2258 /* ViewController.m */; };
 		CFD25D492297C6E9003C2258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD25D472297C6E9003C2258 /* Main.storyboard */; };
@@ -24,6 +33,26 @@
 /* Begin PBXFileReference section */
 		4EB8704DBE4ACBC51280E619 /* Pods-SH_Utils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SH_Utils.release.xcconfig"; path = "Pods/Target Support Files/Pods-SH_Utils/Pods-SH_Utils.release.xcconfig"; sourceTree = "<group>"; };
 		536B47571C3667CED84CF524 /* Pods-SH_Utils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SH_Utils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SH_Utils/Pods-SH_Utils.debug.xcconfig"; sourceTree = "<group>"; };
+		CFBE938B229BAE4100C53AE2 /* SH_CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SH_CollectionViewController.h; sourceTree = "<group>"; };
+		CFBE938C229BAE4100C53AE2 /* SH_CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_CollectionViewController.m; sourceTree = "<group>"; };
+		CFBE938F229BAED900C53AE2 /* SH_VersionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SH_VersionManager.h; sourceTree = "<group>"; };
+		CFBE9390229BAED900C53AE2 /* SH_VersionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_VersionManager.m; sourceTree = "<group>"; };
+		CFBE9392229BAEEE00C53AE2 /* SH_CacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SH_CacheManager.h; sourceTree = "<group>"; };
+		CFBE9393229BAEEE00C53AE2 /* SH_CacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_CacheManager.m; sourceTree = "<group>"; };
+		CFBE9395229BAF0900C53AE2 /* SH_NetWorkIngManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SH_NetWorkIngManager.h; sourceTree = "<group>"; };
+		CFBE9396229BAF0900C53AE2 /* SH_NetWorkIngManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_NetWorkIngManager.m; sourceTree = "<group>"; };
+		CFBE9398229BAF4600C53AE2 /* SH_GlobalManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SH_GlobalManager.h; sourceTree = "<group>"; };
+		CFBE9399229BAF4600C53AE2 /* SH_GlobalManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_GlobalManager.m; sourceTree = "<group>"; };
+		CFBE939B229BAFAF00C53AE2 /* SH_CustomerStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SH_CustomerStatusBar.h; sourceTree = "<group>"; };
+		CFBE939C229BAFAF00C53AE2 /* SH_CustomerStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_CustomerStatusBar.m; sourceTree = "<group>"; };
+		CFBE939F229BAFF600C53AE2 /* SHSerialAnimationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHSerialAnimationQueue.h; sourceTree = "<group>"; };
+		CFBE93A0229BAFF600C53AE2 /* SHSerialAnimationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHSerialAnimationQueue.m; sourceTree = "<group>"; };
+		CFBE93A2229BB17500C53AE2 /* CommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUI.h; sourceTree = "<group>"; };
+		CFBE93A3229BB28C00C53AE2 /* SH_FontManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SH_FontManger.h; sourceTree = "<group>"; };
+		CFBE93A4229BB28C00C53AE2 /* SH_FontManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_FontManger.m; sourceTree = "<group>"; };
+		CFBE93A6229BB33B00C53AE2 /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		CFBE93A7229BC47600C53AE2 /* SHUUIDTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHUUIDTools.h; sourceTree = "<group>"; };
+		CFBE93A8229BC47600C53AE2 /* SHUUIDTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHUUIDTools.m; sourceTree = "<group>"; };
 		CFD25D3E2297C6E9003C2258 /* SH_Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SH_Utils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD25D412297C6E9003C2258 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFD25D422297C6E9003C2258 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +104,34 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CFBE938E229BAE8500C53AE2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CFBE938F229BAED900C53AE2 /* SH_VersionManager.h */,
+				CFBE9390229BAED900C53AE2 /* SH_VersionManager.m */,
+				CFBE9392229BAEEE00C53AE2 /* SH_CacheManager.h */,
+				CFBE9393229BAEEE00C53AE2 /* SH_CacheManager.m */,
+				CFBE9395229BAF0900C53AE2 /* SH_NetWorkIngManager.h */,
+				CFBE9396229BAF0900C53AE2 /* SH_NetWorkIngManager.m */,
+				CFBE9398229BAF4600C53AE2 /* SH_GlobalManager.h */,
+				CFBE9399229BAF4600C53AE2 /* SH_GlobalManager.m */,
+				CFBE93A3229BB28C00C53AE2 /* SH_FontManger.h */,
+				CFBE93A4229BB28C00C53AE2 /* SH_FontManger.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CFBE939E229BAFD800C53AE2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CFBE939F229BAFF600C53AE2 /* SHSerialAnimationQueue.h */,
+				CFBE93A0229BAFF600C53AE2 /* SHSerialAnimationQueue.m */,
+				CFBE93A7229BC47600C53AE2 /* SHUUIDTools.h */,
+				CFBE93A8229BC47600C53AE2 /* SHUUIDTools.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		CFD25D352297C6E9003C2258 = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +172,14 @@
 		CFD25D572297C6F3003C2258 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CFBE939E229BAFD800C53AE2 /* Utils */,
+				CFBE938E229BAE8500C53AE2 /* Manager */,
 				CFD25D622297E0D4003C2258 /* View */,
 				CFD25D612297E0CA003C2258 /* Controller */,
 				CFD25D602297E0BE003C2258 /* Category */,
 				CFD25D5B2297C794003C2258 /* Marco.h */,
+				CFBE93A2229BB17500C53AE2 /* CommonUI.h */,
+				CFBE93A6229BB33B00C53AE2 /* Device.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -137,6 +198,8 @@
 			children = (
 				CFD25D632297E106003C2258 /* SH_TableViewController.h */,
 				CFD25D642297E106003C2258 /* SH_TableViewController.m */,
+				CFBE938B229BAE4100C53AE2 /* SH_CollectionViewController.h */,
+				CFBE938C229BAE4100C53AE2 /* SH_CollectionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -146,6 +209,8 @@
 			children = (
 				CFD25D662297E11C003C2258 /* SHTableView.h */,
 				CFD25D672297E11C003C2258 /* SHTableView.m */,
+				CFBE939B229BAFAF00C53AE2 /* SH_CustomerStatusBar.h */,
+				CFBE939C229BAFAF00C53AE2 /* SH_CustomerStatusBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -263,12 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBE93A1229BAFF600C53AE2 /* SHSerialAnimationQueue.m in Sources */,
+				CFBE93A5229BB28C00C53AE2 /* SH_FontManger.m in Sources */,
 				CFD25D5A2297C745003C2258 /* UILabel+Sh_Init.m in Sources */,
+				CFBE9394229BAEEE00C53AE2 /* SH_CacheManager.m in Sources */,
+				CFBE9391229BAED900C53AE2 /* SH_VersionManager.m in Sources */,
 				CFD25D462297C6E9003C2258 /* ViewController.m in Sources */,
 				CFD25D682297E11C003C2258 /* SHTableView.m in Sources */,
+				CFBE938D229BAE4100C53AE2 /* SH_CollectionViewController.m in Sources */,
 				CFD25D652297E106003C2258 /* SH_TableViewController.m in Sources */,
+				CFBE93A9229BC47600C53AE2 /* SHUUIDTools.m in Sources */,
 				CFD25D512297C6EA003C2258 /* main.m in Sources */,
+				CFBE9397229BAF0900C53AE2 /* SH_NetWorkIngManager.m in Sources */,
 				CFD25D432297C6E9003C2258 /* AppDelegate.m in Sources */,
+				CFBE939D229BAFAF00C53AE2 /* SH_CustomerStatusBar.m in Sources */,
+				CFBE939A229BAF4600C53AE2 /* SH_GlobalManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
