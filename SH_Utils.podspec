@@ -22,7 +22,7 @@ s.dependency 'MJRefresh'
 #source
 s.source_files = 'SH_Utils/Utils/*.h'
 
-s.default_subspec = 'Category','Controller','View','Utils'
+s.default_subspec = 'Category','Controller','View','Utils','Manager'
 s.subspec 'Category' do |cg|
 cg.source_files = 'SH_Utils/Utils/Category/*.{h,m}'
 end
@@ -35,5 +35,7 @@ end
 s.subspec 'Utils' do |ut|
 ut.source_files = 'SH_Utils/Utils/Utils/*.{h,m}'
 end
-
+s.subspec 'Manager' do |ut|
+ut.source_files = 'SH_Utils/Utils/Manager/*.{h,m}'
+end
 end
