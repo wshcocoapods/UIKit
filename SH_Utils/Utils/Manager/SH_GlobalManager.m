@@ -17,10 +17,10 @@
 @end
 
 @implementation SH_GlobalManager
-
+static id obj = nil;
+static dispatch_once_t onceToken;
 + (instancetype)shareInstance{
-    static id obj = nil;
-    static dispatch_once_t onceToken;
+  
     dispatch_once(&onceToken, ^{
         obj = [[SH_GlobalManager alloc]init];
     });
@@ -39,12 +39,15 @@
 }
 
 - (SH_CustomerStatusBar *)customerStatusBar{
-    if (!_customerStatusBar) {
         CGFloat top = (SH_375x812 || SH_414x896)?60:25;
         _customerStatusBar = [[SH_CustomerStatusBar alloc]initWithFrame:CGRectMake(0, 0, SH_SCREEN_WIDTH,top)];
-    }
     return _customerStatusBar;
 }
 
+
++ (void)destroy{
+    obj = nil;
+    onceToken = 0;
+}
 
 @end

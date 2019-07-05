@@ -49,21 +49,20 @@
 }
 
 - (void)showMessage:(NSTimeInterval)delay {
-    __weak SH_CustomerStatusBar *_self = self;
+   __block __weak SH_CustomerStatusBar *_self = self;
     void (^updateLabelOriginY)(CGFloat) = ^(CGFloat originY) {
         if (!_self) return;
         CGRect frame = _self.frame;
         frame.origin.y = originY;
         _self.frame = frame;
     };
-    
     updateLabelOriginY(-CGRectGetHeight(self.frame));
     
     [self.queue animateWithDuration:0.5
                          animations:^{
                              updateLabelOriginY(0);
                          }];
-    
+   
     [self.queue animateWithDuration:0.5
                               delay:delay
                             options:0
@@ -74,7 +73,7 @@
                          completion:^(BOOL finished) {
                              if (!_self) return;
                              _self.hidden = YES;
-                                     [_self removeFromSuperview];
+                             _self = nil;
                          }];
 }
 

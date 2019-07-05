@@ -10,9 +10,10 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
-
 @interface SH_GlobalManager : NSObject
+@property (nonatomic,strong) NSString *name;
 + (instancetype)shareInstance;
++ (void)destroy;
 - (void)showMsgWith:(NSString *)text;
 - (void)showMsgWith:(NSString *)text color:(UIColor *)color;
 @end
